@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "files.associations": {
+        "*.hql": "hive-sql",
+        "stdio.h": "c",
+        "stdlib.h": "c"
+    }
+}
