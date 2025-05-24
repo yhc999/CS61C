@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 
 void jedi(int *arr, int size);
@@ -11,8 +12,7 @@ void jedi(int *arr, int size) {
 }
 
 void ben(int *arr, int size) {
-    int *ptr = NULL;
-    *ptr = 10;
+    // Bug 已删除
     jero(arr, size);
 }
 
@@ -29,7 +29,7 @@ void jero(int *arr, int size) {
 }
 
 int main() {
-    int arr[10];
+    int arr[10] = {0};  // 初始化为 0
     ben(arr, 10);
     return 0;
 }
